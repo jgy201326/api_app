@@ -4,24 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>json data</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="wrapper">
-      <header class="header">
+      <!-- 검색창 -->
+      <section class="search_box">
         <div class="search">
-          <h1>연습</h1>
-          <img src="" alt="">
-          <img src="" alt="">
+          <a href="#" class="search_btn"
+            ><img src="image/search_icon.svg" alt=""
+          /></a>
+          <a href="#" class="delete_btn"
+            ><img src="image/delete_icon.svg" alt=""
+          /></a>
         </div>
-      </div>
+      </section>
+      <!-- 검색어 저장 -->
+      <section class="searching">
+        <div class="delete">
+          <h1>최근 검색어</h1>
+          <a href="#">전체 삭제</a>
+        </div>
+      </section>
 
-        
-      </div>
-      
-      <div class="tab_wrapper">
-
-      </div>
+      <footer>
+        <div class="tab_box">
+          <ul class="tab">
+            <li>
+              <a href="#"><img src="image/book_icon.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="image/home-icon.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="image/star_icon.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="image/setting_icon.svg" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
+
     <script src="data.js"></script>
     <script src="custom.js"></script>
   </body>
